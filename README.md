@@ -1,2 +1,3 @@
 # lightningberk.github.io
-My portfolio website
+This is my portfolio website coded with html, css, bootstrap, and javascript
+Copyright 2023, Asa Fasching
