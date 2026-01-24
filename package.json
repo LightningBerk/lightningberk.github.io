@@ -1,0 +1,33 @@
+{
+  "name": "lightningberk.github.io",
+  "version": "1.0.0",
+  "description": "This is my portfolio website coded with html, css, bootstrap, and javascript\r Copyright 2023, Asa Fasching",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightningBerk/lightningberk.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LightningBerk/lightningberk.github.io/issues"
+  },
+  "homepage": "https://github.com/LightningBerk/lightningberk.github.io#readme",
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "vite-plugin-html-inject": "^1.1.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6"
+  }
+}

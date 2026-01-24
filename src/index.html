@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Asa Fasching" />
+  <meta name="description" content="Portfolio of Asa Fasching - 3D Artist, Photographer, and Web Developer" />
+  <title>Asa Fasching | Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@500;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navMenu" data-bs-offset="100">
+
+  <!-- Navbar -->
+  <load src="/components/navbar.html" />
+
+  <main>
+    <!-- HOME SECTION -->
+    <section id="home" class="d-flex align-items-center work-hero pt-5 pb-5">
+      <div class="container col-xxl-8 px-4 pt-5 pb-5">
+        <div class="row flex-lg-row-reverse align-items-stretch g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 d-flex align-items-center">
+            <div class="position-relative w-100 h-100 overflow-hidden rounded"
+              style="box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7); min-height: 400px;">
+              <img src="/images/hero.PNG" class="img-fluid w-100 h-100" alt="Asa Fasching"
+                style="object-fit: cover; position: absolute; top:0; left:0;" />
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <div class="mb-3">
+              <span class="badge rounded-pill bg-dark border border-secondary text-white px-3 py-2"
+                style="backdrop-filter: blur(5px); background: rgba(10, 25, 47, 0.6) !important;">
+                <span class="text-success me-2">●</span> Open to Work: AI, Web Dev, Content Creation & Photo/Video
+              </span>
+            </div>
+            <h1 class="display-3 fw-bold lh-1 mb-3">Hi, I'm <span class="text-gradient">Asa</span></h1>
+            <h2 class="fs-4 fw-normal text-light mb-4">Creative Technologist | AI Builder | 3D Artist</h2>
+            <p class="lead" style="color: var(--text-secondary);">
+              I'm a multimedia specialist and AI builder bridging the gap between creative production and technical
+              innovation.
+              By day, I produce high-end photography and videography; by night, I engineer custom AI agents and web
+              solutions that automate the future.
+            </p>
+            <p class="text-secondary mb-4">
+              I took a leave from Champlain College's Game Art program because I learn best by doing. Now I'm deploying
+              real AI phone systems,
+              automating farm invoices, and building a Subaru in my spare time. If it can be built, optimized, or
+              automated — I'm interested.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+              <a href="#work" class="btn btn-primary btn-lg px-4 me-md-2">View My Work</a>
+              <a href="#contact" class="btn btn-outline-secondary btn-lg px-4">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION (Fit Check Matrix) -->
+    <section id="skills" class="py-5" style="background-color: var(--bg-light);">
+      <div class="container py-5">
+        <h2 class="display-5 fw-bold text-center mb-5">Skill Matrix</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+
+            <!-- Core Strengths -->
+            <div class="text-center mb-4">
+              <h3 class="h4 text-accent">Core Strengths <span class="text-secondary small ms-2">(Production
+                  Ready)</span></h3>
+            </div>
+
+            <div class="row g-3 justify-content-center mb-5">
+              <!-- 1. Web Development -->
+              <div class="col-md-4">
+                <div class="glass-panel p-3 h-100 rounded">
+                  <div class="d-flex align-items-center mb-3 gap-2">
+                    <i class="bi bi-code-slash text-white"></i>
+                    <h5 class="text-white mb-0">Web Development</h5>
+                  </div>
+                  <div class="d-flex flex-column gap-2">
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Modern Frontend (React, Vite, Bootstrap)
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Semantic HTML5 & Accessibility
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Clean UI/UX Design
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2. Production & Media -->
+              <div class="col-md-4">
+                <div class="glass-panel p-3 h-100 rounded">
+                  <div class="d-flex align-items-center mb-3 gap-2">
+                    <i class="bi bi-camera-video text-white"></i>
+                    <h5 class="text-white mb-0">Production & Media</h5>
+                  </div>
+                  <div class="d-flex flex-column gap-2">
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Professional Photography & Editing
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Video Production (Premiere/After Effects)
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      3D Asset Creation (Blender)
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3. Hands-On Engineering -->
+              <div class="col-md-4">
+                <div class="glass-panel p-3 h-100 rounded">
+                  <div class="d-flex align-items-center mb-3 gap-2">
+                    <i class="bi bi-gear-wide-connected text-white"></i>
+                    <h5 class="text-white mb-0">Hands-On Engineering</h5>
+                  </div>
+                  <div class="d-flex flex-column gap-2">
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Subaru Performance Tuning
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Hardware Integration (Raspberry Pi)
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Diagnostics & Repair
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Expanding Into -->
+            <div class="text-center mb-4">
+              <h3 class="h4 text-accent">Expanding Into <span class="text-secondary small ms-2">(Growth
+                  Areas)</span></h3>
+            </div>
+
+            <div class="row g-3 justify-content-center">
+              <!-- 1. AI & Automation -->
+              <div class="col-md-6">
+                <div class="glass-panel p-4 h-100 rounded" style="border: 1px dashed var(--text-secondary);">
+                  <div class="d-flex align-items-center mb-3 gap-2">
+                    <i class="bi bi-robot text-white"></i>
+                    <h5 class="text-white mb-0">AI & Automation</h5>
+                  </div>
+                  <p class="text-secondary small mb-3">
+                    Building autonomous agents and optimizing workflows with LLMs.
+                  </p>
+                  <div class="d-flex flex-column gap-2">
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Autonomous Agent Workflows
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      LLM Integration (Claude/OpenAI)
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Automation (n8n, Zapier)
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2. SaaS Architecture -->
+              <div class="col-md-6">
+                <div class="glass-panel p-4 h-100 rounded" style="border: 1px dashed var(--text-secondary);">
+                  <div class="d-flex align-items-center mb-3 gap-2">
+                    <i class="bi bi-graph-up text-white"></i>
+                    <h5 class="text-white mb-0">Full-Stack SaaS</h5>
+                  </div>
+                  <p class="text-secondary small mb-3">
+                    Leveraging design and engineering skills to build complete web products.
+                  </p>
+                  <div class="d-flex flex-column gap-2">
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Scalable Backend Architecture
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Full-Stack Product Design
+                    </div>
+                    <div
+                      class="p-2 rounded border border-secondary bg-white bg-opacity-10 w-100 text-center text-secondary small">
+                      Cloud Deployment
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK SECTION (Masonry) -->
+    <section id="work" class="py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold">My Work</h2>
+          <p class="lead text-secondary">A collection of my photography, renders, and code.</p>
+
+          <div class="filter-group mt-4">
+            <button class="filter-btn active mx-2" data-filter="*">All</button>
+            <button class="filter-btn mx-2" data-filter=".ai-automation">AI & Automation</button>
+            <button class="filter-btn mx-2" data-filter=".creative">Creative</button>
+            <button class="filter-btn mx-2" data-filter=".technical">Technical</button>
+            <button class="filter-btn mx-2" data-filter=".personal">Personal</button>
+          </div>
+        </div>
+
+        <!-- MASONRY GRID -->
+        <div class="grid row">
+          <!-- AI / AUTOMATION PROJECTS -->
+          <div class="grid-item col-lg-4 col-md-6 mb-4 ai-automation technical">
+            <div class="portfolio-card glass-panel text-center py-5">
+              <i class="bi bi-robot display-1 text-accent"></i>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">AI Phone Agent</h4>
+                <p class="portfolio-description">Twilio + ElevenLabs voice AI for automated call screening and routing.
+                </p>
+                <span class="tag">Production System</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item col-lg-4 col-md-6 mb-4 ai-automation technical">
+            <div class="portfolio-card glass-panel text-center py-5">
+              <i class="bi bi-chat-left-text display-1 text-accent"></i>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">SMS Daily Summary</h4>
+                <p class="portfolio-description">Modal.com serverless Python + Claude API for morning briefings.</p>
+                <span class="tag">Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item col-lg-4 col-md-6 mb-4 ai-automation technical">
+            <div class="portfolio-card glass-panel text-center py-5">
+              <i class="bi bi-brain display-1 text-accent"></i>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">Citadel</h4>
+                <p class="portfolio-description">Obsidian + Claude second brain stack. Knowledge management product.
+                </p>
+                <span class="tag">Product (Beta)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CREATIVE PROJECTS (Existing) -->
+          <div class="grid-item col-lg-4 col-md-6 mb-4 creative">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="/images/z6.jpg" alt="Z6 Rotary Cannon" loading="lazy">
+              </div>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">Z6 Rotary Cannon</h4>
+                <p class="portfolio-description">40k+ Downloads. ARMA 3 Star Wars Mod Asset.</p>
+                <span class="tag">Blender</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PERSONAL / AUTOMOTIVE -->
+          <div class="grid-item col-lg-4 col-md-6 mb-4 personal">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="/images/bugeye00.jpeg" alt="Bugeye WRX Build" loading="lazy">
+              </div>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">Bugeye WRX Build</h4>
+                <p class="portfolio-description">Custom Subaru build. Suspension, tuning, and restoration.</p>
+                <span class="tag">Automotive</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item col-lg-4 col-md-6 mb-4 creative">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="/images/crossbow.jpg" alt="Stylized Crossbow" loading="lazy">
+              </div>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">Stylized Crossbow</h4>
+                <span class="tag">Game Asset</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item col-lg-4 col-md-6 mb-4 creative">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="/images/nes_1.jpg" alt="NES Controller" loading="lazy">
+              </div>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">NES Controller</h4>
+                <span class="tag">Hard Surface</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item col-lg-4 col-md-6 mb-4 technical">
+            <div class="portfolio-card glass-panel text-center py-5">
+              <i class="bi bi-motherboard display-1 text-accent"></i>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">Pi Security System</h4>
+                <p class="portfolio-description">Budget camera system built for retail store security.</p>
+                <span class="tag">Raspberry Pi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PHOTOGRAPHY -->
+          <div class="grid-item col-lg-4 col-md-6 mb-4 creative">
+            <div class="portfolio-card">
+              <div class="portfolio-image" style="padding-top: 125%;">
+                <img src="/images/faschingCymbal2.jpg" alt="Cymbal Study" loading="lazy">
+              </div>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">Cymbal Study</h4>
+                <span class="tag">Photography</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item col-lg-4 col-md-6 mb-4 creative">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="/images/faschingBackround.jpg" alt="Dusk Landscape" loading="lazy">
+              </div>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">Dusk Landscape</h4>
+                <span class="tag">Photography</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXISTING CODE ITEMS -->
+          <div class="grid-item col-lg-4 col-md-6 mb-4 technical">
+            <div class="portfolio-card glass-panel text-center py-5">
+              <i class="bi bi-github display-1 text-white"></i>
+              <div class="portfolio-content">
+                <h4 class="portfolio-title">Folia VR Game</h4>
+                <p class="portfolio-description">Award-winning VR exploration game.</p>
+                <a href="https://github.com/LightningBerk" target="_blank"
+                  class="btn btn-sm btn-outline-secondary mt-2">View Code</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="py-5" style="background-color: var(--bg-light);">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <h2 class="display-5 fw-bold mb-4">Experience &<br>Education</h2>
+            <a href="/faschingResume2026.pdf" target="_blank" class="btn btn-primary btn-lg">
+              <i class="bi bi-download me-2"></i>Download Resume
+            </a>
+          </div>
+          <div class="col-lg-8">
+            <!-- Experience Items -->
+            <button class="glass-panel p-4 rounded mb-4 experience-card" onclick="toggleDetails(this)">
+              <div class="d-flex justify-content-between mb-2">
+                <h4 class="mb-0 text-white">Multimedia Specialist</h4>
+                <span class="text-accent">2024 - Present</span>
+              </div>
+              <h5 class="text-secondary small mb-2">Willington Design and Print / IMAGE Manufacturing</h5>
+              <ul class="text-secondary mb-0 ps-3">
+                <li>Designed promotional 3D renders, animations & product photos.</li>
+                <li>Managed social media (IG/TikTok/FB) to build engagement.</li>
+              </ul>
+              <!-- Hidden Details -->
+              <div class="experience-details mt-3 pt-3 border-top border-secondary d-none">
+                <p class="text-secondary small mb-2"><strong class="text-white">Deep Dive:</strong></p>
+                <p class="text-secondary small">
+                  Built and deployed an AI Phone Agent using Twilio and ElevenLabs to automate call screening.
+                  Managed company websites via Wix and Shopify. Gained hands-on experience with screen printing
+                  workflows.
+                </p>
+              </div>
+              <div class="text-center mt-2">
+                <i class="bi bi-chevron-down text-accent small"></i>
+            </button>
+
+
+
+            <button class="glass-panel p-4 rounded mb-4 experience-card" onclick="toggleDetails(this)">
+              <div class="d-flex justify-content-between mb-2">
+                <h4 class="mb-0 text-white">Photographer & Videographer</h4>
+                <span class="text-accent">2022 - Present</span>
+              </div>
+              <h5 class="text-secondary small mb-2">Self-Employed</h5>
+              <ul class="text-secondary mb-0 ps-3">
+                <li>Professional media for car shows and private clients.</li>
+                <li>Full creative workflow (Shoot -> Edit -> Deliver).</li>
+              </ul>
+              <div class="experience-details mt-3 pt-3 border-top border-secondary d-none">
+                <p class="text-secondary small">
+                  Expertise in Adobe Creative Suite (Premiere, Photoshop, Lightroom, After Effects).
+                  Developed a distinct style for automotive and portrait photography.
+                </p>
+              </div>
+              <div class="text-center mt-2">
+                <i class="bi bi-chevron-down text-accent small"></i>
+              </div>
+            </button>
+
+            <button class="glass-panel p-4 rounded mb-4 experience-card" onclick="toggleDetails(this)">
+              <div class="d-flex justify-content-between mb-2">
+                <h4 class="mb-0 text-white">Mechanic (Self Taught)</h4>
+                <span class="text-accent">2022 - Present</span>
+              </div>
+              <h5 class="text-secondary small mb-2">Subaru Specialist</h5>
+              <p class="text-secondary mb-0">
+                Suspension, brake service, turbocharger systems.
+              </p>
+              <div class="experience-details mt-3 pt-3 border-top border-secondary d-none">
+                <p class="text-secondary small">
+                  Advanced diagnostics and tuning. Complete engine builds and custom body work.
+                  Specializing in high-performance Subaru platforms.
+                </p>
+              </div>
+              <div class="text-center mt-2">
+                <i class="bi bi-chevron-down text-accent small"></i>
+              </div>
+            </button>
+
+            <button class="glass-panel p-4 rounded mb-4 experience-card" onclick="toggleDetails(this)">
+              <div class="d-flex justify-content-between mb-2">
+                <h4 class="mb-0 text-white">Retail Worker</h4>
+                <span class="text-accent">2022 - 2024</span>
+              </div>
+              <h5 class="text-secondary small mb-2">Turner Toys & Hobbies</h5>
+              <p class="text-secondary mb-0">
+                Customer service & inventory management.
+              </p>
+              <div class="experience-details mt-3 pt-3 border-top border-secondary d-none">
+                <p class="text-secondary small">
+                  Notable Achievement: Designed and built a custom Raspberry Pi security camera system
+                  to improve store security on a budget.
+                </p>
+              </div>
+              <div class="text-center mt-2">
+                <i class="bi bi-chevron-down text-accent small"></i>
+              </div>
+            </button>
+
+            <button class="glass-panel p-4 rounded mb-4 experience-card" onclick="toggleDetails(this)">
+              <div class="d-flex justify-content-between mb-2">
+                <h4 class="mb-0 text-white">3D Artist</h4>
+                <span class="text-accent">2021 - 2022</span>
+              </div>
+              <h5 class="text-secondary small mb-2">Legion Studios</h5>
+              <p class="text-secondary mb-0">
+                Game-ready assets for ARMA 3 Star Wars mods.
+              </p>
+              <div class="experience-details mt-3 pt-3 border-top border-secondary d-none">
+                <p class="text-secondary small">
+                  Collaborated with project managers and concept artists.
+                  Assets achieved over 40,000 downloads in the modding community.
+                </p>
+              </div>
+              <div class="text-center mt-2">
+                <i class="bi bi-chevron-down text-accent small"></i>
+              </div>
+            </button>
+
+            <button class="glass-panel p-4 rounded mb-4 experience-card" onclick="toggleDetails(this)">
+              <div class="d-flex justify-content-between mb-2">
+                <h4 class="mb-0 text-white">Farmhand</h4>
+                <span class="text-accent">2015 - Present</span>
+              </div>
+              <h5 class="text-secondary small mb-2">Jericho Settlers Farm</h5>
+              <p class="text-secondary mb-0">
+                Supported organic farm operations.
+              </p>
+              <div class="experience-details mt-3 pt-3 border-top border-secondary d-none">
+                <p class="text-secondary small">
+                  Logistics, delivery driving, machine operation, and customer service.
+                </p>
+              </div>
+              <div class="text-center mt-2">
+                <i class="bi bi-chevron-down text-accent small"></i>
+              </div>
+            </button>
+          </div>
+
+          <!-- Academic & Awards Separator -->
+          <div class="d-flex align-items-center my-5 py-2">
+            <hr class="flex-grow-1 border-secondary opacity-25">
+            <span class="mx-3 text-secondary small text-uppercase tracking-wider">Academics & Awards</span>
+            <hr class="flex-grow-1 border-secondary opacity-25">
+          </div>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="glass-panel p-3 rounded h-100">
+                <h5 class="text-white">Champlain College</h5>
+                <p class="text-secondary small mb-0">B.A. Game Art (On Leave)</p>
+                <small class="text-muted d-block mt-1">2023 - 2025</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="glass-panel p-3 rounded h-100">
+                <h5 class="text-white">Center for Technology, Essex</h5>
+                <p class="text-secondary small mb-0">Computer Animation & Web Design I/II</p>
+                <small class="text-muted d-block mt-1">9 College Credits | 2021 - 2023</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="glass-panel p-3 rounded h-100">
+                <h5 class="text-white">Community College of VT</h5>
+                <p class="text-secondary small mb-0">Python, Web Design, Photography</p>
+                <small class="text-muted d-block mt-1">2022 - 2023</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="glass-panel p-3 rounded h-100">
+                <h5 class="text-white">SkillsUSA Champion</h5>
+                <p class="text-secondary small mb-0">Vermont State 1st Place (Game Design)</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="glass-panel p-3 rounded h-100">
+                <h5 class="text-white">National Technical Honor Society</h5>
+                <p class="text-secondary small mb-0">Inducted 2022</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="glass-panel p-3 rounded h-100">
+                <h5 class="text-white">WebProfessionals</h5>
+                <p class="text-secondary small mb-0">Associate Web Developer Certification</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-5 d-flex align-items-center min-vh-75">
+      <div class="container text-center max-w-600">
+        <p class="text-accent mb-2">What's Next?</p>
+        <h2 class="display-3 fw-bold mb-4">Get In Touch</h2>
+        <p class="lead text-secondary mb-5 mx-auto" style="max-width: 600px;">
+          I'm currently looking for new opportunities in 3D Art and Web Development.
+          Whether you have a question or just want to say hi, my inbox is always open!
+        </p>
+        <a href="mailto:asa.fasching@MMUUSD.org" class="btn btn-primary btn-lg px-5 py-3">Say Hello</a>
+
+        <div class="mt-5 d-flex justify-content-center gap-4 social-links">
+          <a href="https://github.com/LightningBerk" class="fs-2 text-secondary hover-accent" aria-label="GitHub"><i
+              class="bi bi-github"></i></a>
+          <a href="https://www.instagram.com/asa_fasching/" class="fs-2 text-secondary hover-accent"
+            aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com/people/Asa-Fasching/100074476151836/"
+            class="fs-2 text-secondary hover-accent" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.youtube.com/@lightningberk2767" class="fs-2 text-secondary hover-accent"
+            aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="backToTop"
+      class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-4 shadow-lg d-none d-flex align-items-center justify-content-center p-0"
+      style="width: 50px; height: 50px; z-index: 9999; opacity: 0; transition: opacity 0.3s;" aria-label="Back to Top">
+      <i class="bi bi-arrow-up fs-4"></i>
+    </button>
+    </div>
+    </section>
+
+  </main>
+
+
+  <load src="/components/footer.html" />
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="module" src="/js/main.js"></script>
+
+</body>
+
+</html>
